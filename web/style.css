@@ -1,0 +1,453 @@
+   /* start a home */
+    *{
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth; 
+        background-position: 0;
+    }
+
+    .menu{
+        width: 100%;
+        height: 70px;
+        display: inline-flex;
+        position: fixed;
+        background-color: transparent,wheat;   
+    
+    }
+    .div-left{
+        width: 30%;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        color: red;
+             
+        
+    }
+    h1{
+        text-align: center;
+        line-height: 70px;
+
+    }    
+	.div-right{
+        width: 70%;
+        
+    }
+    .div-right ul{
+        display: inline-flex;
+        list-style: none;
+        gap: 20px;
+        margin-right: 10px;
+        float: right;
+        line-height: 70px;
+        font-size: 20px;  
+    }
+
+    li a{
+        position: relative;
+        text-decoration: none;
+        font-family: 'Poppins',sans-serif;
+        color: #FFF;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        padding: 0 10px;
+       
+    }
+
+    li a::after{
+        content: "";
+        width: 0;
+        height: 3px;
+        background-color: coral;
+        margin: auto;
+        display: block;
+    }
+
+    li a:hover::after{
+        width: 100%;
+        transition: widh 0.3s linear;
+    
+    }
+    li a:hover{
+        color: coral;
+    }
+
+
+    #Home{
+        width: 100%;
+        height: 710px;
+        background-image: url("img/Home\ Icon1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .home-inform{
+        height: 600px;
+        width: 100%;
+    }
+    
+    .title{
+        margin-top: 15%;
+        padding: 15px;
+        margin-left: 15%;
+        font-size: 30px;
+        color: white;
+        font-family: cursive;
+    }
+    .text{
+        color: red;
+    }
+    .parag{
+        width: 30%;
+        height: 10px;
+        margin-left: 10px;
+        font-size: 18px;
+        color:white;
+        font-family: serif;
+    }
+    .btu1{
+        width: 50%;
+        height: 70px;
+        padding: 20px;
+        line-height: 100px;
+        text-align: center;
+        margin-top: 40px;   
+    }
+    button{
+        width: 20%;
+        height: 50%;
+        font-size: 17px;
+        border-radius: 10px;
+        margin: 10px;
+    } 
+    button:hover{
+        background-color:green;
+    }
+
+
+
+
+    /* start a About */
+    #About{
+        width: 100%;
+        height: 710px;
+        background-image: url('img/img1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .info1{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        padding: 5px;
+    }
+    .div1{
+        width: 33%;
+        height: 400px;
+    }
+    img{
+        width: 90%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: 60px;
+        border-radius: 50px;
+        padding: 15px ;
+        margin-left: 8px;
+    }
+    .div1:hover img{
+        transform: scale(1.1);
+    }
+    .div2:hover img{
+        transform: scale(1.1);
+    }
+    .div3:hover img{
+        transform: scale(1.1);
+    }
+    .div2{
+        width: 33%;
+        height: 400px;
+
+    }
+    .div3{
+        width: 33%;
+        height: 400px;
+
+    }
+
+
+
+
+/* start services */
+
+    #Services{
+        width: 100%;
+        height: 710px;
+        background-image: url('img/Serviee.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .info2{
+        width: 100%;
+        height: 400px;
+        display: flex;  
+    }
+    .div4{
+        width: 34%;
+        height: 400px;
+    }
+    .div4:hover img{
+        transform: scale(1.1);
+    }
+    .div5{
+        width: 34%;
+        height: 400px;
+
+    }
+    .div5:hover img{
+        transform: scale(1.1);
+    }
+    .div6{
+        width: 34%;
+        height: 400px;
+    }
+    .div6:hover img{
+        transform: scale(1.1);
+    }
+
+/* start Gallery */
+
+    #Gallery{
+        width: 100%;
+        height: 710px;
+        display: flex;
+        background-image: url('img/Gellary.jpg');
+        background-repeat: no-repeat;
+    }
+
+    .div7{
+        width: 26%;
+        height: 650px;
+    }
+    .child1{
+        width:100%;
+        height: 325px;
+    }
+    .child1:hover{
+        transform: scale(1.1);
+    }
+    .child2{
+        width:100%;
+        height: 325px;
+        margin-top: 30px;
+    }
+
+    .child2:hover{
+        transform: scale(1.1);
+    }
+    .div8{
+        width: 26%;
+        height: 650px;
+    }
+    .child3{
+        width:100%;
+        height: 325px;
+    }
+    .child3:hover{
+        transform: scale(1.1);
+    }
+    .child4{
+        width:100%;
+        height: 325px;
+        margin-top: 30px;
+    }
+    .child4:hover{
+        transform: scale(1.1);
+    }
+    .divv9{
+        width: 48%;
+        height: 650px;
+    }
+
+
+/* start for contact */
+
+    #Contacts{
+        width: 100%;
+        height: 710px;
+        background-image: url("img/Contack\ image1.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+        
+    .left_cont1{
+        width: 50%;
+        height: 620px ; 
+    }
+   
+    .section-header{
+         margin-bottom: 50px;
+         text-align: center;
+         margin-top: 30px;
+    }
+
+     .section-header h2{
+         color: #FFF;
+         font-weight: bold;
+         font-size: 3em;
+         margin-top: 60px;
+         margin-bottom: 20px;
+         margin-left: 30%;
+    }
+
+     .section-header p{
+         color: #FFF;
+         font-size: 20px;
+
+    }
+     .cont1{
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: space-between;
+    }
+
+     .cont2-info{
+         width: 50%;
+    }
+
+    .cont2-info-item{
+         display: flex;
+         margin-bottom: 30px;
+    }
+
+     .cont2-info-icon{
+         height: 60px;
+         width: 60px;  
+         background-color: #FFF;
+         text-align: center;
+         border-radius: 30%;
+         margin-left: 10px;
+    }
+     .cont2-info-icon i{
+         font-size: 30px;
+         line-height: 60px;
+    }
+
+     .cont2-info-content{
+         margin-left: 20px;
+    
+    }
+
+     .cont2-info-content h4{
+         color: #1da9c0;
+         font-size: 1.4em;
+         margin-bottom: 5px;
+    }
+
+     .cont2-info-content p{
+         color: #FFF;
+         font-size: 1em;
+    }
+
+     .right_cont2{
+         width: 50%;
+         height: 620px ; 
+
+   }
+
+    #contack-form{
+         background-color: #FFF;
+         padding: 40px;
+         width: 45%;
+         padding-bottom: 20px;
+         padding-top: 20px;
+         margin-left: 30%;
+         margin-top: 20%;
+         border-radius: 8px;
+    }
+
+
+     #contack-form h2{
+         font-weight: bold;
+         font-size: 2em;
+         margin-bottom: 10px;
+         color: #333;
+    }
+
+     #contack-form .input-box{
+         position: relative;
+         width: 100%;
+         margin-top: 10px;
+    }
+
+     #contack-form .input-box input,
+     #contack-form .input-box textarea{
+         width: 100%;
+         padding: 5px 0;
+         font-size: 16px;
+         margin: 10px 0;
+         border: none;
+         border-bottom: 2px solid #333;
+         outline: none;
+         resize: none;
+    }
+
+     #contack-form .input-box span{
+         position: relative;
+         left: 0;
+         padding: 5px 0;
+         font-size: 16px;
+         margin: 10px 0;
+         pointer-events: none;
+         transition: 0.5s;
+         color: #666;
+    }
+
+     #contack-form .input-box input:focus ~ span,
+     #contack-form .input-box textarea:focus ~ span{
+         color: #e91e63;
+         font-size: 12px;
+         transform: translateY(-20px);
+    }
+
+     #contack-form .input-box
+     [type="submit"] {
+         width: 100%;
+         background: #00bcd4;
+         color: #FFF;
+         border: none;
+         cursor: pointer;
+         padding: 10px;
+         border: none;
+         font-size: 18px;
+         border: 1px solid #00bcd4;
+         transition: 0.5s;
+     }
+
+     #contack-form .input-box 
+     [type="submit"]:hover{
+         background: #FFF;
+         color: #00bcd4;
+
+     }
+
+
+     @media (max-width: 991px){
+     section{
+         padding-top: 50px;
+         padding-bottom: 50px;
+     }
+
+     .row {
+         flex-direction: column;
+     }
+
+     .cont2-info{
+         margin-bottom: 40px;
+         width: 100%;
+     }
+
+     #contack-form{
+         width: 100%;
+     }
+     }
